@@ -1,4 +1,6 @@
 # Project-Collaboration-and-Competition---DRL
+
+## Project Description
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
@@ -15,35 +17,16 @@ The task is episodic, and in order to solve the environment, your agents must ge
 - This yields a single **score** for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
+## Getting Started
 
-### Getting Started
+1. Download the entire repository and unzip (or decompress) the python.zip
 
+2. Place the "python" folder in the working folder.
 
+3. Follow the instructions in `Continuous_Control.ipynb` to get started with training the agent! You can try tuning the hyperparameter as well!
 
-### Test environment
-``` console
-Unity Academy name: Academy
-        Number of Brains: 1
-        Number of External Brains : 1
-        Lesson number : 0
-        Reset Parameters :
-		
-Unity brain name: TennisBrain
-        Number of Visual Observations (per agent): 0
-        Vector Observation space type: continuous
-        Vector Observation space size (per agent): 8
-        Number of stacked Vector Observation: 3
-        Vector Action space type: continuous
-        Vector Action space size (per agent): 2
-        Vector Action descriptions: , 
-Number of agents: 2
-Size of each action: 2
-There are 2 agents. Each observes a state with length: 24
-```
+4. You can also load the pretrained model weight provided to see how the agents work.
 
-### Files
-1. Jupyter notebook: Tennis.ipynb
-2. Console training file: train.py
-3. Console test file: test.py
-4. Report: report.md
-1
+## Visualizing Results
+
+The environment was solved in 119 episodes with	Average Score is 30.16
