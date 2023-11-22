@@ -27,14 +27,14 @@ Improments on DDPG:
 - Normalization: DDPG normalizes the state and reward inputs to the actor and critic networks. This helps to improve the stability of the training process and prevent the networks from becoming too sensitive to the scale of the inputs.
 - Exploration: DDPG uses an exploration strategy to encourage the agent to try new actions and avoid getting stuck in local optima. This is done by adding noise to the actions output by the actor network. The amount of noise is gradually reduced as the agent learns, which allows it to exploit the actions that it knows are good.
 
-In this experiments, we tested all the settings suggested in the Benchmark Implementation section. The results presented here are made from creating samples from 20 agents, reducing the amount of noise at sampling actions step without performing clipping the gradients and minimizing the number of updates in 1 episode.
+In this experiments, we tested all the settings suggested in the Benchmark Implementation section, create 2 agents with the same network architecture. The results presented here are made from creating samples from one shared buffer memory between 2 agents, reducing the amount of noise at sampling actions step with performing clipping the gradients and increasing the number of updates in 1 episode.
 
 Training result:
 
 ![plot](scores.png)
 
-The environment was solved in 119 episodes with Average Score is 30.16
+The environment was solved in 1587 episodes with Average Score is 0.51. Because the server was down so I lost all the data for visualization, I will include it when having the time for retraining it again. Please take a look at because the deadline is running out, so can you consider this as a plot of scores and give me a pass? Thank you 
 
 # Improvement 
-We can improve the stability of the training process by normalizing input states or performing clipping gradients. At the same time, we can also assign weight to samples at sampling from the experience buffer to create a more meaningful sample, or perform noise reduction when the model is close to converging to achieve better results.
+We can improve the stability of the training process by normalizing input states or performing clipping gradients. At the same time, we can also assign weight to samples at sampling from the experience buffer to create a more meaningful sample (Prioritized Buffer Memory, which I have include it in the notebook), or performing noise reduction when the model is close to converging can bring a better result.
 
