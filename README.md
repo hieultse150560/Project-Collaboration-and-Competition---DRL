@@ -1,5 +1,5 @@
 # Project-Collaboration-and-Competition---DRL
-
+A project for training 2 agents be able to collaborate and play Tennis game
 ## Project Description
 [//]: # (Image References)
 
@@ -23,10 +23,10 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 2. Place the "python" folder in the working folder.
 
-3. Follow the instructions in `Continuous_Control.ipynb` to get started with training the agent! You can try tuning the hyperparameter as well!
+3. Follow the instructions in `Tennis.ipynb` to get started with training the agent! You can try tuning the hyperparameter as well!
 
 4. You can also load the pretrained model weight provided to see how the agents work.
 
 ## Visualizing Results
 
-The environment was solved in 119 episodes with	Average Score is 30.16
+The environment was solved in 1537 episodes with	Average Score is 0.51
