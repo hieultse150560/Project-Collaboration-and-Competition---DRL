@@ -29,7 +29,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 ## Visualizing Results
 
-The environment was solved in 1537 episodes with Average Score is 0.51
+The environment was solved in 1587 episodes with Average Score is 0.51
 
 ![plot](scores.png)
 
