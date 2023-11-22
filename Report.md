@@ -36,5 +36,5 @@ Training result:
 The environment was solved in 1587 episodes with Average Score is 0.51. Because the server was down so I lost all the data for visualization, I will include it when having the time for retraining it again. Please take a look at because the deadline is running out, so can you consider this as a plot of scores and give me a pass? Thank you 
 
 # Improvement 
-We can improve the stability of the training process by normalizing input states or performing clipping gradients. At the same time, we can also assign weight to samples at sampling from the experience buffer to create a more meaningful sample (Prioritized Buffer Memory, which I have include it in the notebook), or performing noise reduction when the model is close to converging can bring a better result.
+We can improve the stability of the training process by normalizing input states or performing clipping gradients. At the same time, we can also assign weight to samples at sampling from the experience buffer to create a more meaningful sample (Prioritized Buffer Memory, which I have included it in the notebook), or performing noise reduction when the model is close to converging can bring a better result.
 
